@@ -5,7 +5,9 @@ const cors = require("cors");
 const axios = require("axios");
 const fetch = require("node-fetch");
 const corsOptions = {
-  origin: '*' // or put your frontend URL: "https://main.dopr9c40j2tao.amplifyapp.com"
+  origin: "*", // allowed frontend URL
+  methods: ["GET", "POST", "OPTIONS"],                  // allowed HTTP methods
+  allowedHeaders: ["Content-Type"],                     // allowed headers
 };
 
 dotenv.config();
