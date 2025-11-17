@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 const router = express.Router();
 router.use(cors(corsOptions));
-app.use(cors());
+// app.use(cors());
 
 router.get('/', (req, res) => {
 res.setHeader('Access-Control-Allow-Origin', '*'); // allow all domains
