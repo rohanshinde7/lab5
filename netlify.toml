@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "npm run build --prefix backend"
+  command = "npm install --prefix backend && npm run build --prefix backend"
   functions = "backend/netlify/functions"
   publish = "backend/dist"
 
