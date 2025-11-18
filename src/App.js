@@ -3,6 +3,7 @@ import {useState, useEffect} from "react";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import NavbarComponent from "./components/nav/navbar";
+import Carousel from "./components/carousel/carousel";
 
 function App() {
 const [state, setState] = useState(null);
@@ -18,6 +19,7 @@ return (
   <NavbarComponent />
   <Header />
   <div className="container text-center">
+    <Carousel/>
     <h1>Welcome to My Full-Stack App </h1>
     <p>This is a React app styled with Bootstrap 5.</p>
     {state ? <p>{state.message}</p> : <p>Loading...</p>}
