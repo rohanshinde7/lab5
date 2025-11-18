@@ -27,7 +27,7 @@ function Carousel() {
 
         <div className="carousel-item">
           <img
-            src="/images/tech.jpg"
+            src="images/tech.jpg"
             className="d-block w-100"
             alt="Tech Projects"
           />
