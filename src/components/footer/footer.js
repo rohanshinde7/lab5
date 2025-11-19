@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react';
+import './footer.css';
 
 function Footer() {
   return (
     <footer className="bg-dark text-white text-center py-3 mt-5">
-      <div className="container">
-        <p className="mb-0">© {new Date().getFullYear()} Rohan Shinde. All Rights Reserved.</p>
-      </div>
+      &copy; 2025 Rohan Shinde. All rights reserved.
     </footer>
   );
 }

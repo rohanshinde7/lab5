@@ -1,0 +1,21 @@
+.navbar-custom {
+  background-color: #1f3c88 !important;
+}
+
+.nav-link{
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-custom .nav-link {
+  color: white !important;
+  margin-right: 15px;
+  font-size: 1.1rem;
+}
+
+.navbar-custom .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}

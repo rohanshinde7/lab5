@@ -1,13 +1,11 @@
-import React from "react";
+import React from 'react';
+import './header.css';
 
 function Header() {
   return (
-    <header className="bg-primary text-white text-center py-5">
-      <div className="container">
-        <h1 className="display-4 fw-bold">Hi, I'm Rohan Shinde</h1>
-        <p className="lead">Developer • Personal Trainer • Fitness Coach • Engineer</p>
-        <a href="#projects" className="btn btn-light btn-lg mt-3">View My Work</a>
-      </div>
+    <header className="text-center my-5">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Full-Stack Developer | Personal Trainer | Fitness Enthusiast</p>
     </header>
   );
 }

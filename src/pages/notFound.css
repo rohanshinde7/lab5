@@ -1,0 +1,55 @@
+/* notFound.css */
+
+.not-found-container {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #333;
+}
+
+.not-found-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1f3c88;
+}
+
+.not-found-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.not-found-container .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .not-found-container h2 {
+    font-size: 2rem;
+  }
+
+  .not-found-container p {
+    font-size: 1rem;
+  }
+
+  .not-found-container .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .not-found-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .not-found-container p {
+    font-size: 0.9rem;
+  }
+
+  .not-found-container .btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}

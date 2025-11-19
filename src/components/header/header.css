@@ -1,0 +1,16 @@
+.header-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: #4e5052;
+  color: white;
+}
+
+.header-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-container p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}

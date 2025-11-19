@@ -1,0 +1,23 @@
+/* carousel.css */
+
+.carousel {
+  max-width: 900px;   
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel img {
+  height: 420px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); 
+}
+
+@media (max-width: 768px) {
+  .carousel img {
+    height: 250px; /* responsive */
+  }
+}

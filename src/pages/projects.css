@@ -1,0 +1,111 @@
+/* Projects Page */
+
+#projects,
+#certifications,
+#skills {
+  padding: 40px 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#projects h2,
+#certifications h2,
+#skills h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Project List */
+#projects ul {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 150px;
+  line-height: 1.6;
+}
+
+/* Certifications */
+#certifications .list-group-item {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Skills Card */
+#skills .card {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+#skills .card-title {
+  margin-top: 10px;
+  color: #1f3c88;
+  font-weight: bold;
+}
+
+#skills .card-text {
+  line-height: 1.6;
+}
+
+/* Accordion */
+.accordion-button {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+}
+
+.accordion-body ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+
+  /* Reduce side padding on mobile */
+  #projects,
+  #certifications,
+  #skills {
+    padding: 25px 15px;
+  }
+
+  /* Project list alignment */
+  #projects ul {
+    padding-left: 20px;
+  }
+
+  /* Skills card spacing */
+  #skills .card {
+    padding: 10px;
+  }
+
+  .accordion-button {
+    font-size: 1rem;
+  }
+
+  #skills .card-text {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Headings */
+  #projects h2,
+  #certifications h2,
+  #skills h2 {
+    font-size: 1.4rem;
+  }
+
+  #projects ul {
+    padding-left: 15px;
+    font-size: 0.95rem;
+  }
+
+  .list-group-item {
+    font-size: 0.95rem;
+  }
+
+  #skills .card {
+    padding: 8px;
+  }
+}
