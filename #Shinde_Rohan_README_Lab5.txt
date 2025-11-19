@@ -4,7 +4,7 @@ This Lab 5 project is a React-based personal portfolio website designed to showc
 
 * *Date Created*: 13/11/2025
 * *Last Modification Date*: 18/11/2025
-* *Lab URL*: 
+* *Lab URL*: https://main.dopr9c40j2tao.amplifyapp.com/
 
 
 ## Authors
